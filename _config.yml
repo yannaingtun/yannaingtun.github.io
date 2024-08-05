@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+<<<<<<< HEAD
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -31,6 +32,20 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
+=======
+title: Yannaing Tun's Portfolio
+email: yannaingtun2007@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My personal portfolio showcasing my work in Android Security and AI.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yannaingtun.github.io" # the base hostname & protocol for your site
+twitter_username: yannaingtun
+github_username:  yannaingtun
+
+# Build settings
+theme: minima
+
+>>>>>>> cdcc580 (Initial commit)
 plugins:
   - jekyll-feed
 
